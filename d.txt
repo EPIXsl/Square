@@ -2,19 +2,19 @@ import math
 pi = 3.14
 a = input('Название фигуры')
 if a == 'Квадрат':
-    q = int(input('введите длину стороны'))
-    s = qq
-    принт(с)
+    q = int(input('введите длинну стороны'))
+    s = q*q
+    print(s)
 elif a == 'Треугольник':
-    w = int(input('введите длину стороны'))
-    r = int(input('введите длину стороны'))
-    e = int(input('введите длину стороны'))
+    w = int(input('введите длинну стороны'))
+    r = int(input('введите длинну стороны'))
+    e = int(input('введите длинну стороны'))
     p = (w+r+e)/2
-    z = (p(p-w)(p-r)(p-e))  0.5
+    z = (p*(p-w)*(p-r)*(p-e)) ** 0.5
     print(z)
 elif a == 'Круг':
     rad = int(input('Введите радиус'))
-    Pl = rad 2
+    Pl = rad**2
     ss = Pl*pi
     print(ss)
 else:
